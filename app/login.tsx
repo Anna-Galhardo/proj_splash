@@ -12,16 +12,18 @@ export default function App() {
       </View>
       
       <View>
-      <Text>LOGIN</Text>
+      <Text>LOGIN:</Text>
       <TextInput placeholder= "Insira seu CPF" style={styles.input}/>
-      <Text>SENHA</Text>
+      <Text>SENHA:</Text>
       <TextInput placeholder= "Insira sua senha" style={styles.input}/>
-      <Link href={""} style={styles.canto}>cadastrar</Link>
-      <Link href={""} style={styles.canto}>esqueci a senha</Link>
+      <View style={styles.canto}>
+        <Link href="/cadastro" style={styles.link}>cadastrar</Link>
+        <Link href="/esqueciSenha" style={styles.link}>esqueci a senha</Link>
+     </View>
       </View>
 
-      <View>
-        <Link href={""}>Entrar</Link>
+      <View style={{ width: "100%" }}>
+      <Link href="/home" style={styles.entrar}>ENTRAR</Link>
       </View>
       
       
