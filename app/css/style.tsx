@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
    btn: {
     width: 200,
     height: 50,
-    backgroundColor: "#dd0000",
+    backgroundColor: "#3f51b5",
     borderRadius: 10,
     alignItems: "center",
     justifyContent: "center",
@@ -82,6 +82,63 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     alignItems: "flex-end",
   },
+   dashboardContainer: {
+    flexGrow: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    paddingBottom: 30,
+  },
+  card: {
+    width: 350,
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    padding: 20,
+    marginTop: 20,
+    borderWidth: 1,
+    borderColor: "#ccc",
+  },
+
+  cardTitle: {
+    fontSize: 20,
+    fontWeight: "bold",
+  },
+
+  cardDescribe: {
+    marginTop: 10,
+    color: "#555",
+  },
+
+  likeButton: {
+    marginTop: 15,
+    backgroundColor: "#3f51b5",
+    padding: 10,
+    borderRadius: 10,
+    alignItems: "center",
+  },
+
+  likeText: {
+    color: "#fff",
+    fontWeight: "bold",
+  },
+  cardImage: {
+    width: "100%",
+    height: 150,
+    borderRadius: 10,
+    marginBottom: 15,
+  },
+  
+  buttonText: {
+    color: "#fff" ,
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+
+  botao: {
+    width: "100%",
+    marginTop: 20,
+    alignSelf: "stretch",
+  },
+
 
 });
 

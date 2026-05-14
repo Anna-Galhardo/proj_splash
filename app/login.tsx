@@ -30,7 +30,7 @@ export default function App() {
       </View>
 
       <View style={{ width: "100%" }}>
-      <Link href="/home" style={styles.entrar}>ENTRAR</Link>
+      <Link href="/dashboard" style={styles.entrar}>ENTRAR</Link>
       </View>
       
       
