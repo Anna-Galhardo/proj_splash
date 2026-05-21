@@ -138,6 +138,19 @@ const styles = StyleSheet.create({
     marginTop: 20,
     alignSelf: "stretch",
   },
+   modalContainer: {
+    flex: 1,
+    backgroundColor: "rgba(0,0,0,0.5)",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  modalContent: {
+    width: 300,
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    padding: 20,
+  },
 
 
 });
